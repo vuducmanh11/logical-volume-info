@@ -1,0 +1,39 @@
+NAME                                                                                       MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                                                                                          8:0    0 744,7G  0 disk 
+├─sda1                                                                                       8:1    0   200M  0 part 
+├─sda2                                                                                       8:2    0     1G  0 part 
+└─sda3                                                                                       8:3    0 743,5G  0 part 
+  ├─centos-root                                                                            253:0    0   1,6T  0 lvm  /
+  ├─centos-swap                                                                            253:1    0     4G  0 lvm  [SWAP]
+  └─centos-home                                                                            253:2    0     1G  0 lvm  
+sdb                                                                                          8:16   0   931G  0 disk 
+└─sdb1                                                                                       8:17   0   931G  0 part 
+  └─centos-root                                                                            253:0    0   1,6T  0 lvm  /
+loop0                                                                                        7:0    0   100G  0 loop 
+└─docker-253:0-34323311-pool                                                               253:6    0   100G  0 dm   
+  ├─docker-253:0-34323311-e23b2ab85aae2e8fc3ded4a35ec6cf2088981b5672f43fcb163261e9b98f5b8a 253:7    0    10G  0 dm   
+  ├─docker-253:0-34323311-6bc65c24e17bedea65b0ad6c1862c420ace0f2bc4ca7a8b0099142fdae04399c 253:8    0    10G  0 dm   
+  ├─docker-253:0-34323311-75e3e0a9bfe5fb32cbd229a0cdc285760a753fdf86bdd42edf0df658164fa610 253:9    0    10G  0 dm   
+  ├─docker-253:0-34323311-8cd078b1bdb0bb03676c7afe9875d3bb6e73cac230e27dd2b72d4e982ebc53a5 253:10   0    10G  0 dm   
+  ├─docker-253:0-34323311-d832ad3ec1bef8a6b892541aaf5124375b69c8ad5c6046094e8a37aa523d8b77 253:15   0    10G  0 dm   
+  ├─docker-253:0-34323311-19ad1ed14556aa6d6388173073299a363b83f5e5cf70c6d0b8daf73a9b358a15 253:16   0    10G  0 dm   
+  ├─docker-253:0-34323311-2e4cf535e2433598f3429a1a03ae0bbaf0f7e47c039d0de449c05f853ac51c7e 253:17   0    10G  0 dm   
+  ├─docker-253:0-34323311-53525ab115518f1b022baeec479d6f93336057d66272bf2350cd55cf50a8eec5 253:18   0    10G  0 dm   
+  ├─docker-253:0-34323311-d76d16681058aabfc03f61a8fd3ed13887eacde1a77dc065934a6c7adeb0a3b6 253:19   0    10G  0 dm   
+  └─docker-253:0-34323311-784ec30f3dcf74e54cfc7b2fed18521cb5cbae7c6d3d83da1507ea48321d0abb 253:20   0    10G  0 dm   
+loop1                                                                                        7:1    0     2G  0 loop 
+└─docker-253:0-34323311-pool                                                               253:6    0   100G  0 dm   
+  ├─docker-253:0-34323311-e23b2ab85aae2e8fc3ded4a35ec6cf2088981b5672f43fcb163261e9b98f5b8a 253:7    0    10G  0 dm   
+  ├─docker-253:0-34323311-6bc65c24e17bedea65b0ad6c1862c420ace0f2bc4ca7a8b0099142fdae04399c 253:8    0    10G  0 dm   
+  ├─docker-253:0-34323311-75e3e0a9bfe5fb32cbd229a0cdc285760a753fdf86bdd42edf0df658164fa610 253:9    0    10G  0 dm   
+  ├─docker-253:0-34323311-8cd078b1bdb0bb03676c7afe9875d3bb6e73cac230e27dd2b72d4e982ebc53a5 253:10   0    10G  0 dm   
+  ├─docker-253:0-34323311-d832ad3ec1bef8a6b892541aaf5124375b69c8ad5c6046094e8a37aa523d8b77 253:15   0    10G  0 dm   
+  ├─docker-253:0-34323311-19ad1ed14556aa6d6388173073299a363b83f5e5cf70c6d0b8daf73a9b358a15 253:16   0    10G  0 dm   
+  ├─docker-253:0-34323311-2e4cf535e2433598f3429a1a03ae0bbaf0f7e47c039d0de449c05f853ac51c7e 253:17   0    10G  0 dm   
+  ├─docker-253:0-34323311-53525ab115518f1b022baeec479d6f93336057d66272bf2350cd55cf50a8eec5 253:18   0    10G  0 dm   
+  ├─docker-253:0-34323311-d76d16681058aabfc03f61a8fd3ed13887eacde1a77dc065934a6c7adeb0a3b6 253:19   0    10G  0 dm   
+  └─docker-253:0-34323311-784ec30f3dcf74e54cfc7b2fed18521cb5cbae7c6d3d83da1507ea48321d0abb 253:20   0    10G  0 dm   
+loop2                                                                                        7:2    0   100G  0 loop 
+└─docker-253:2-536871014-pool                                                              253:11   0   100G  0 dm   
+loop3                                                                                        7:3    0     2G  0 loop 
+└─docker-253:2-536871014-pool                                                              253:11   0   100G  0 dm   

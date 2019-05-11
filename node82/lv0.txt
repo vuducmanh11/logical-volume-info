@@ -1,0 +1,123 @@
+0h 05/12/2019  
+--- Logical volume ---
+  LV Path                /dev/centos/swap
+  LV Name                swap
+  VG Name                centos
+  LV UUID                XlWbg1-WdUj-L5Q4-oK4x-Y9Ji-Y0jm-NRAgE3
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-21 11:23:27 +0700
+  LV Status              available
+  # open                 2
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:1
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/home
+  LV Name                home
+  VG Name                centos
+  LV UUID                S02fQP-jDVu-l9Ee-YEdh-H3eY-2lRJ-j4Vr8k
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-21 11:23:27 +0700
+  LV Status              available
+  # open                 1
+  LV Size                <689.49 GiB
+  Current LE             176509
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:2
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/root
+  LV Name                root
+  VG Name                centos
+  LV UUID                DuRpwe-wEso-WtJJ-MVp9-wxLa-VkQ3-wVxfz4
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-21 11:23:29 +0700
+  LV Status              available
+  # open                 1
+  LV Size                50.00 GiB
+  Current LE             12800
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+   
+  --- Logical volume ---
+  LV Path                /dev/cinder-volumes/volume-18697ed7-906f-41f6-b70b-8c34675a2f23
+  LV Name                volume-18697ed7-906f-41f6-b70b-8c34675a2f23
+  VG Name                cinder-volumes
+  LV UUID                9pDJmY-s4hF-9Cf1-Jw36-Y9FR-D2WW-fSrOSR
+  LV Write Access        read/write
+  LV Creation host, time RAPID082, 2017-05-22 10:12:48 +0700
+  LV Status              available
+  # open                 0
+  LV Size                10.00 GiB
+  Current LE             2560
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:3
+   
+  --- Logical volume ---
+  LV Path                /dev/cinder-volumes/volume-6fe2561c-50fc-4d64-88c3-03e4e159fa95
+  LV Name                volume-6fe2561c-50fc-4d64-88c3-03e4e159fa95
+  VG Name                cinder-volumes
+  LV UUID                SqtwZL-zKar-TlQA-PjQT-XpKp-gI1o-IXqeuK
+  LV Write Access        read/write
+  LV Creation host, time RAPID082, 2017-05-22 10:13:55 +0700
+  LV Status              available
+  # open                 0
+  LV Size                10.00 GiB
+  Current LE             2560
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:4
+   
+  --- Logical volume ---
+  LV Path                /dev/cinder-volumes/volume-bee8dc79-2e98-42ad-93b5-c8226f246e45
+  LV Name                volume-bee8dc79-2e98-42ad-93b5-c8226f246e45
+  VG Name                cinder-volumes
+  LV UUID                V20aq4-7Sd1-o9Av-SZI2-AosO-uAQJ-m8ptD0
+  LV Write Access        read/write
+  LV Creation host, time RAPID082, 2017-05-22 10:14:12 +0700
+  LV Status              available
+  # open                 0
+  LV Size                10.00 GiB
+  Current LE             2560
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:5
+   
+  --- Logical volume ---
+  LV Name                cinder-volumes-pool
+  VG Name                cinder-volumes
+  LV UUID                w1SpZS-PKzz-ez5w-JUUz-0oLj-s4wr-AKIp6k
+  LV Write Access        read/write
+  LV Creation host, time node82, 2019-04-26 09:43:44 +0700
+  LV Pool metadata       cinder-volumes-pool_tmeta
+  LV Pool data           cinder-volumes-pool_tdata
+  LV Status              available
+  # open                 0
+  LV Size                855.95 GiB
+  Allocated pool data    0.00%
+  Allocated metadata     10.42%
+  Current LE             219124
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:14
+   
