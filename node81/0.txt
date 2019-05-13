@@ -112,3 +112,9 @@ tmpfs                     63G     0   63G   0% /sys/fs/cgroup
 /dev/sda1                200M   12M  189M   6% /boot/efi
 /dev/mapper/centos-home  690G  122M  690G   1% /home
 tmpfs                     13G     0   13G   0% /run/user/0
+  LV                                          VG             Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  home                                        centos         -wi-ao---- <689,49g                                                    
+  root                                        centos         -wi-ao----   50,00g                                                    
+  swap                                        centos         -wi-ao----    4,00g                                                    
+  cinder-volumes-pool                         cinder-volumes twi-a-tz--  874,95g             0,00   10,41                           
+  volume-478d44fe-7a24-43f7-8882-85be2078a56a cinder-volumes -wi-a-----   10,00g                                                    
